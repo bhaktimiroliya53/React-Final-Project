@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "name": "Bhakti",
+      "UserName": "Bhakti",
+      "email": "bhakti@gmail.com",
+      "Password": "12345",
+      "roale": "Admin",
+      "id": "1"
+    },
+    {
+      "id": "c88e",
+      "name": "Bhakti",
+      "UserName": "Bhakti007",
+      "email": "bhaktimiroliya@gmail.com",
+      "phone": "9684572310",
+      "Password": "123456789",
+      "ConfirmPassword": "123456789",
+      "roale": "user"
+    },
+    {
+      "id": "ae07",
+      "name": "Mansvi",
+      "UserName": "Mansvi007",
+      "email": "mansvi@gmail.com",
+      "phone": "993344885710",
+      "Password": "0987654321",
+      "ConfirmPassword": "0987654321",
+      "roale": "user"
+    },
+    {
+      "id": "8002",
+      "name": "purvi",
+      "UserName": "purvi007",
+      "email": "purvi@gmail.com",
+      "phone": "1234567890",
+      "Password": "12345",
+      "ConfirmPassword": "12345",
+      "roale": "user"
+    }
+  ]
+}

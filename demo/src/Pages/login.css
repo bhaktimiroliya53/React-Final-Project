@@ -1,0 +1,217 @@
+/* .form_main {
+  width: 325px;
+  height: 385px;
+  margin: 150px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0e0f0;
+  padding: 30px 30px 30px 30px;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.062);
+  position: relative;
+  overflow: hidden;
+}
+
+.form_main::before {
+  position: absolute;
+  content: "";
+  width: 311px;
+  height: 320px;
+  background-color: #b694b7;
+  transform: rotate(45deg);
+  left: -180px;
+  bottom: 30px;
+  z-index: 1;
+  border-radius: 30px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.082);
+}
+
+.heading {
+  font-size: 2em;
+  color: #2e2e2e;
+  font-weight: 700;
+  margin: 5px 0 10px 0;
+  z-index: 2;
+}
+
+.inputContainer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.inputIcon {
+  position: absolute;
+  left: 3px;
+}
+
+.inputField {
+  width: 100%;
+  height: 30px;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(2, 2, 2, 0.444);
+  margin: 10px 0;
+  color: black;
+  font-size: 16px;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-left: 30px;
+}
+
+.inputField:focus {
+  outline: none;
+  border-bottom: 2px solid rgb(199, 114, 255);
+}
+
+.inputField::placeholder {
+  color: rgb(80, 80, 80);
+  font-size: 1em;
+  font-weight: 500;
+}
+
+#button {
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  border: none;
+  background: #a16ca4;
+  height: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+#button:hover {
+  background: #885f8a; 
+  transition: all 0.5s;
+}
+
+.forgotLink {
+  z-index: 2;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(44, 24, 128);
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 20px;
+} */
+
+.group {
+  position: relative;
+}
+
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  border: 1px solid white;
+  padding: 120px 40px;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  padding-right: 40px;
+  padding-left: 40px;
+  background-color: black;
+  border-radius: 20px;
+  position: relative;
+}
+
+.form p {
+  padding-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: .5px;
+  color: white;
+}
+
+.logincontainer{
+  background-color: transparent;
+}
+
+.container-1 {
+  padding-top: 30px;
+}
+
+.main-input {
+  font-size: 16px;
+  padding: 10px 10px 10px 5px;
+  display: block;
+  width: 185px;
+  border: none;
+  border-bottom: 1px solid #6c6c6c;
+  background: transparent;
+  color: #ffffff;
+}
+
+.main-input:focus {
+  outline: none;
+  border-bottom-color: #42ff1c;
+}
+
+.lebal-email {
+  color: #999999;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  pointer-events: none;
+  left: 5px;
+  top: 10px;
+  transition: 0.2s ease all;
+  -moz-transition: 0.2s ease all;
+  -webkit-transition: 0.2s ease all;
+}
+
+.main-input:focus ~ .lebal-email,
+.main-input:valid ~ .lebal-email {
+  top: -20px;
+  font-size: 14px;
+  color: #42ff1c;
+}
+
+.highlight-span {
+  position: absolute;
+  height: 60%;
+  width: 0px;
+  top: 25%;
+  left: 0;
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+.main-input:focus ~ .highlight-span {
+  -webkit-animation: input-focus 0.3s ease;
+  animation: input-focus 0.3s ease;
+}
+
+@keyframes input-focus {
+  from {
+    background: #42ff1c;
+  }
+
+  to {
+    width: 185px;
+  }
+}
+
+.submit {
+  margin-top: 1.2rem;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
