@@ -38,5 +38,40 @@
       "ConfirmPassword": "12345",
       "roale": "user"
     }
+  ],
+  "category": [
+    {
+      "id": "2c75",
+      "category": "Mobile"
+    },
+    {
+      "id": "da1a",
+      "category": "Toy"
+    },
+    {
+      "id": "cbfc",
+      "category": "Cycle"
+    },
+    {
+      "id": "eedc",
+      "category": "Electronic"
+    },
+    {
+      "id": "1055",
+      "category": "T shirt"
+    }
+  ],
+  "products": [
+    {
+      "id": "d967",
+      "category": "Mobile",
+      "name": "Apple iPhone 13 (Starlight, 128 GB)",
+      "price": "₹52,999",
+      "qty": "1",
+      "description": " iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity.",
+      "img": "https://rukminim2.flixcart.com/image/832/832/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70&crop=false",
+      "marketStatus": "",
+      "status": ""
+    }
   ]
 }

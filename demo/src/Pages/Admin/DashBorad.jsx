@@ -5,15 +5,17 @@ import LeftSidebar from './LeftSidebar'
 function DashBorad() {
   return (
     <>
-    <Header/>
-        <div className="row">
-            <div className="col-lg-3">
-              <LeftSidebar/>
-            </div>
-            <div className="col-lg-3">
-              DashBoard
-            </div>
+      <Header />
+      <div className="row">
+        <div className="col-lg-3">
+          <LeftSidebar />
         </div>
+        <div className="col-lg-9">
+          <div className="category-list">
+            <h1>Dashboard</h1>
+          </div>
+        </div>
+      </div>
     </>
   )
 }

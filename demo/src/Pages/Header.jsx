@@ -3,6 +3,10 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useAuth } from '../Context/Auth';
 import { Link } from 'react-router-dom';
+import { IoSearchSharp } from "react-icons/io5";
+import { FaRegUser } from "react-icons/fa";
+import { FaRegHeart } from "react-icons/fa";
+import { FiShoppingCart } from "react-icons/fi";
 
 function Header() {
 
@@ -18,47 +22,49 @@ function Header() {
     }
     return (
         <>
-            <nav className="navbar navbar-expand-lg ">
-                <div className="container-fluid">
-                    <h1 style={{color : 'white'}}>Logo</h1>
-                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon" />
-                    </button>
-                    <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                    Dropdown
-                                </a>
-                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <li><a class="dropdown-item" href="#">Name :- {auth.user?.name}</a></li>
-                                    <li><a class="dropdown-item" href="#">Email :- {auth.user?.email}</a></li>
-                                    <li><hr class="dropdown-divider" /></li>
-                                    <li><a class="dropdown-item" href="#">Roale :- {auth.user?.roale}</a></li>
-                                </ul>
-                            </li>
-                            {
+            <header>
+                <div className="HeaderList">
+                    <ul>
+                    {
                                 (!auth.user) ? (<>
                                     <li className="nav-item">
                                         <Link to={'/'}>
-                                            <button class="btn btn-outline-light">LogIn</button>
+                                            <button className="btn btn-outline-light">LOGIN</button>
                                         </Link>
                                     </li>
                                     <li className="nav-item">
                                         <Link to={'/register'}>
-                                            <button class="btn btn-outline-light ms-3">Register</button>
+                                            <button className="btn btn-outline-light ms-3">REGISTER</button>
                                         </Link>
                                     </li>
                                 </>) : (
                                     <li className="nav-item">
-                                        <button type="button" class="btn btn-outline-light" onClick={() => logout()}>LogOut</button>
+                                        <button type="button" className="btn btn-outline-light" onClick={() => logout()}>LOGOUT</button>
                                     </li>
                                 )
                             }
-                        </ul>
-                    </div>
+                    </ul>
                 </div>
-            </nav>
+                <div className="HeaderLogo">
+                    <img src="https://i.pinimg.com/736x/57/b4/ec/57b4ec7187e70604b67171452753f28b--unique-logo-be-unique.jpg" width={200} />
+                </div>
+                <div className="HeaderIcons">
+                    <ul>
+                        <li>
+                            <IoSearchSharp />
+                        </li>
+                        <li>
+                            <FaRegUser />
+                        </li>
+                        <li>
+                            <FaRegHeart />
+                        </li>
+                        <li>
+                            <FiShoppingCart />
+                        </li>
+                    </ul>
+                </div>
+            </header>
         </>
     )
 }
