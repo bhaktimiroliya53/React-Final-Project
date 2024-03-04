@@ -5,42 +5,140 @@
   outline: none;
 }
 
-ul, ol {
+ul,
+ol {
   list-style: none;
+}
+
+.navbar {
+  border-bottom: 2px solid white;
+  width: 100%;
+  background-color: #000000;
+  align-items: center;
+  text-align: center;
+  padding: 10px 0;
+  top: 0;
+}
+.navbar .list-info ul {
+  margin-top: 10px;
+}
+.navbar .list-info ul li {
+  font-size: 16px;
+  align-items: center;
+}
+.navbar .list-info ul li span {
+  color: white;
+  text-align: center;
+  font-weight: 400;
+  padding: 0px 25px;
+  align-items: center;
+}
+.navbar .list-icon ul {
+  margin-top: 10px;
+}
+.navbar .list-icon ul li {
+  font-size: 18px;
+  align-items: center;
+}
+.navbar .list-icon ul li span {
+  color: white;
+  text-align: center;
+  padding: 0px 25px;
+  align-items: center;
 }
 
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #000000;
+}
+header .main-header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   align-items: center;
   text-align: center;
+  background-color: #000000;
 }
-header .HeaderList ul {
+header .main-header .HeaderList ul {
   display: flex;
 }
-header .HeaderList ul li {
-  padding: 20px;
+header .main-header .HeaderList ul li {
+  padding-left: 10px;
 }
-header .HeaderList ul li button {
+header .main-header .HeaderList ul li button {
   background-color: transparent;
-  color: white;
-  border: 1px solid white;
+  color: #67fcf2;
+  border: 1px solid #67fcf2;
   padding: 5px 10px;
   border-radius: 5px;
+  font-weight: 600;
   transition: all 0.6s;
 }
-header .HeaderList ul li button:hover {
-  background-color: white;
-  border: 1px solid white;
+header .main-header .HeaderList ul li button:hover {
+  background-color: #67fcf2;
+  border: 1px solid #67fcf2;
   color: black;
 }
-header .HeaderIcons ul {
-  display: flex;
+
+html {
+  font: normal 14px/20px "Roboto", sans-serif;
+  padding: 0 0 25px;
 }
-header .HeaderIcons ul li {
-  padding: 20px;
-  margin: 10px;
-  color: white;
+
+h1 {
   font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.card-1 {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: -1px 2px 4px rgba(0, 0, 0, 0.25), 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin: 0 auto;
+  max-width: 340px;
+  padding: 15px;
+}
+
+.card-media {
+  width: 100%;
+}
+
+.card-details {
+  padding: 5px 15px;
+}
+
+.card-head {
+  font-weight: 400;
+}
+
+.card-head {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.card-action-button {
+  border-radius: 2px;
+  color: #FFAB40;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+  margin: 0;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.card-action-button:hover {
+  background-color: rgba(255, 168, 58, 0.2);
 }/*# sourceMappingURL=Pages.css.map */

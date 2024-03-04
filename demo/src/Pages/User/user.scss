@@ -1,0 +1,61 @@
+//UserProduct css
+
+.fillter {
+    background-color: rgb(30, 30, 30);
+    width: 400px;
+    // height: 100vh;
+    // position: fixed;
+
+    h2 {
+        font-size: 38px;
+        font-weight: normal;
+        color: white;
+        display: flex;
+        justify-content: center;
+        margin-left: 190px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .category-fillter {
+        color: white;
+        margin-left: 190px;
+        margin-top: 50px;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
+        .list-group-item {
+            background-color: transparent;
+            border: none;
+            button {
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                padding: 5px 10px;
+                margin: 5px 0;
+                width: 250px;
+                font-size: 20px;
+                transition: all 0.5s;
+            }
+
+            button:hover {
+                background-color: white;
+                color: black;
+            }
+            
+        }
+
+    }
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+//CART CSS
+
+.table{
+    margin: 0px auto;
+}

@@ -2,6 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 import Header from './Header';
+import Navbar from './Nav';
 
 function Regesiter() {
 
@@ -24,8 +25,9 @@ function Regesiter() {
         phone: phone,
         Password: Password,
         ConfirmPassword: ConfirmPassword,
-        roal: 'user'
+        roale: "user"
       });
+      console.log(data);
       alert('Record id Add')
       setName('')
       setUsername('')
@@ -45,6 +47,7 @@ function Regesiter() {
 
   return (
     <>
+      <Navbar/>
       <Header />
       <div className="registerform">
         <div className="container">

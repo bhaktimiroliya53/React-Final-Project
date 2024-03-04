@@ -7,7 +7,7 @@
 
 .container {
   max-width: 1200px;
-  margin: 100px auto;
+  margin: 0px auto;
 }
 
 ul,
@@ -16,11 +16,13 @@ ol {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  width: 100%;
   background-color: #000000;
   align-items: center;
   text-align: center;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 header .HeaderList ul {
   display: flex;
@@ -30,8 +32,8 @@ header .HeaderList ul li {
 }
 header .HeaderList ul li button {
   background-color: transparent;
-  color: white;
-  border: 1px solid white;
+  color: #67fcf2;
+  border: 1px solid #67fcf2;
   padding: 5px 10px;
   border-radius: 5px;
   transition: all 0.6s;
@@ -53,8 +55,9 @@ header .HeaderIcons ul li {
 
 .left-sidebar {
   background-color: #191919;
-  height: 100vh;
-  margin-top: -100px;
+  height: 100%;
+  position: fixed;
+  width: 400px;
 }
 .left-sidebar .list-items {
   margin-top: 100px;

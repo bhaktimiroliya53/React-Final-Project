@@ -3,6 +3,7 @@ import Header from '../../Header'
 import LeftSidebar from '../LeftSidebar'
 import axios from 'axios';
 import { toast } from 'react-toastify';
+import Nav from '../../Nav';
 
 function AddPRoducts() {
 
@@ -11,9 +12,9 @@ function AddPRoducts() {
     const [category , setCategory] = useState('')
     const [name , setName] = useState('')
     const [price , setPrice] = useState('')
-    const [qty , setQty] = useState('')
     const [description , setDescription] = useState('')
     const [img , setImg] = useState('')
+    const [qty , setqty] = useState('')
     const [marketStatus , setMarketStatus] = useState('')
     const [status , setStatus] = useState('')
     
@@ -24,13 +25,21 @@ function AddPRoducts() {
                 category : category,
                 name : name,
                 price : price,
-                qty : qty,
                 description : description,
                 img : img,
+                qty : 1,
                 marketStatus : marketStatus,
                 status : status,
             }) 
             toast.success("Product Successfully Added");
+            setCategory('')
+            setName('')
+            setPrice('')
+            setDescription('')
+            setImg('')
+            setqty('')
+            setMarketStatus('')
+            setStatus('')
         }catch(err){
             console.log(err);
             return false;
@@ -88,10 +97,6 @@ function AddPRoducts() {
                                                 <label>Price :- </label>
                                                 <input type="text" onChange={ (e) => setPrice(e.target.value)} value={price}/>
                                             </div>
-                                            <div className="form-group">
-                                                <label>Qty :- </label>
-                                                <input type="text" onChange={ (e) => setQty(e.target.value)} value={qty}/>
-                                            </div>
 
                                             <div className="form-group">
                                                 <label>Description :- </label>
@@ -102,20 +107,24 @@ function AddPRoducts() {
                                                 <input type="text" onChange={ (e) => setImg(e.target.value)} value={img}/>
                                             </div>
                                             <div className="form-group">
+                                                <label>Qty</label>
+                                                <input type="text" onChange={ (e) => setqty(e.target.value)} value={qty}/>
+                                            </div>
+                                            <div className="form-group">
                                                 <label>Market Status :- </label>
                                                 <select onChange={ (e) => setMarketStatus(e.target.value)} value={marketStatus}>
                                                     <option value="">--Select MarketStatus--</option>
-                                                    <option value="">Latest</option>
-                                                    <option value="">Upcomming</option>
-                                                    <option value="">Best</option>
+                                                    <option value="latset">Latest</option>
+                                                    <option value="upcomming">Upcomming</option>
+                                                    <option value="best">Best</option>
                                                 </select>
                                             </div>
                                             <div className="form-group">
                                                 <label>Status :- </label>
                                                 <select onChange={ (e) => setStatus(e.target.value)} value={status}>
                                                     <option value="">--Select Status--</option>
-                                                    <option value="">Active</option>
-                                                    <option value="">Deactive</option>
+                                                    <option value="active">Active</option>
+                                                    <option value="deactive">Deactive</option>
                                                 </select>
                                             </div>
                                             <button className='ProductButton'>Submit</button>
