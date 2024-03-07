@@ -7,7 +7,7 @@ import { useAuth } from '../../Context/Auth'
 
 function User() {
 
-  const navigate = useNavigate()
+  const navigate = useNavigate()  
   const [ auth , setAuth] = useAuth('')
   const [user, setUser] = useState([])
 

@@ -7,11 +7,11 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 function UserDetails() {
 
-  const navigate = useNavigate('')
-  const { id } = useParams()
+  const navigate = useNavigate('');
+  const { id } = useParams();
   const [auth, setAuth] = useAuth();
   const [cart, setCart] = useState([]);
-  const [user, setUser] = useState({})
+  const [user, setUser] = useState({});
 
   useEffect(() => {
     if (auth?.user?.role === "user") {
@@ -22,7 +22,6 @@ function UserDetails() {
   const getuser = async () => {
     try {
       let { data } = await axios.get(`http://localhost:8000/users/${id}`)
-      // console.log(data);
       setUser(data)
     } catch (err) {
       console.log(err);
@@ -32,7 +31,7 @@ function UserDetails() {
 
   const getCart = async () => {
     try {
-      let { data } = await axios.get(`http://localhost:8000/carts?user=${id}`)
+      let { data } = await axios.get(`http://localhost:8000/carts?user=${auth.user.id}`)
       setCart(data);
     } catch (err) {
       console.log(err);
