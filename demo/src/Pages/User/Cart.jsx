@@ -12,8 +12,10 @@ function Cart() {
 
   const getCart = async() => {
     try {
-      let {data} = await axios.get(`http://localhost:8000/carts`)
-      setcart(data)
+      let {data} = await axios.get(`http://localhost:8000/carts?user=${auth.user?.id}`)  
+      console.log(data);
+      setcart(data);
+      
     } catch (err) {
       console.log(err);
       return false
@@ -22,7 +24,12 @@ function Cart() {
 
   const deleteData = async(id) => {
     try {
-      let {data} = await axios.get(`http://localhost:8000/carts`);
+      let {data} = await axios.delete(`http://localhost:8000/carts/${id}`);
+      let dele = cart.filter((val) => {
+        return val.id !== id
+      })
+      setcart(dele )
+      console.log(dele);
       
     } catch (err) {
       console.log(err);
@@ -32,7 +39,7 @@ function Cart() {
 
   useEffect(() => {
     getCart()
-  },[])
+  },[auth.user?.id])
 
   return (
     <>
@@ -50,8 +57,8 @@ function Cart() {
                   <th scope="col">Name</th>
                   <th scope="col">Img</th>
                   <th scope="col">Price</th>
-                  <th scope="col">Qty</th>
-                  {/* <th scope="col">Total</th> */}
+                  {/* <th scope="col">Qty</th>
+                  <th scope="col">Total</th> */}
                   <th scope="col">Action</th>
                 </tr>
               </thead>
@@ -67,9 +74,10 @@ function Cart() {
                           <img src={val.img} width="50" />
                         </td>
                         <td>{val.price}</td>
-                        <td>
-                          <input type="number"  className='form-control' value={1}/>
+                        {/* <td>
+                          <input type="number"  className='form-control w-25'/>
                         </td>
+                        <td>{val.price * val.qty}</td> */}
                         <td>
                           <button className='btn btn-danger' onClick={ () => deleteData(val.id)}>Delete</button>
                         </td>
@@ -77,7 +85,6 @@ function Cart() {
                     )
                   })
                 }
-
               </tbody>
             </table>
           </div>

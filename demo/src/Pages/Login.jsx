@@ -18,9 +18,8 @@ function Login() {
         e.preventDefault();
         try {
             let { data } = await axios.get(`http://localhost:8000/users/?UserName=${userName}&Password=${password}`);
-            console.log(data);
             if (data.length > 0) {
-                localStorage.setItem('users', JSON.stringify(data));
+                localStorage.setItem('users', JSON.stringify(data[0]));
                 setAuth({
                     ...auth,
                     user: data[0]
@@ -28,7 +27,12 @@ function Login() {
                 toast.success("User SuccessFully login")
                 setUserName('')
                 setPassword('')
-                navigate('/admin/dashboard')
+
+                if (data[0].roale === "Admin") {
+                    navigate('/admin/dashboard');
+                } else {
+                    navigate('/home');
+                }
             } else {
                 toast.error("User not login")
             }
@@ -41,7 +45,7 @@ function Login() {
 
     return (
         <>
-            <Nav/>
+            <Nav />
             <Header />
             <div className="logincontainer">
                 <div className="container">
@@ -49,13 +53,13 @@ function Login() {
                         <form className="form">
                             <p>Login</p>
                             <div className="group">
-                                <input required="true" className="main-input" type="text" onChange={ (e) => setUserName(e.target.value)} value={userName}/>
+                                <input required="true" className="main-input" type="text" onChange={(e) => setUserName(e.target.value)} value={userName} />
                                 <span className="highlight-span" />
                                 <label className="lebal-email">UserName</label>
                             </div>
                             <div className="container-1">
                                 <div className="group">
-                                    <input required="true" className="main-input" type="text" onChange={ (e) => setPassword(e.target.value)} value={password}/>
+                                    <input required="true" className="main-input" type="password" onChange={(e) => setPassword(e.target.value)} value={password} />
                                     <span className="highlight-span" />
                                     <label className="lebal-email">password</label>
                                 </div>

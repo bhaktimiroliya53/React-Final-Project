@@ -1,15 +1,23 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import Header from '../../Header'
 import LeftSidebar from '../LeftSidebar'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../../../Context/Auth';
 
 function AddCategory() {
     
     const navigate = useNavigate('')
+    const [auth , setAuth] = useAuth()
     const [category , setCategory] = useState('')
+
+    useEffect(() => {
+        if(auth?.user?.roale === "user"){
+            navigate('/')
+        }
+    },[])
 
     const handleSubmit = async() => {
         try{

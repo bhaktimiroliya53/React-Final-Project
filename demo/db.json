@@ -9,53 +9,43 @@
       "id": "1"
     },
     {
-      "id": "ae07",
-      "name": "Mansvi",
-      "UserName": "Mansvi007",
-      "email": "mansvi@gmail.com",
-      "phone": "993344885710",
-      "Password": "0987654321",
-      "ConfirmPassword": "0987654321",
-      "roale": "user"
-    },
-    {
-      "id": "8002",
+      "id": "fa01",
       "name": "purvi",
-      "UserName": "purvi007",
-      "email": "purvi@gmail.com",
-      "phone": "1234567890",
-      "Password": "12345",
-      "ConfirmPassword": "12345",
+      "UserName": "purvi",
+      "email": "puriv@gmail.com",
+      "phone": "9876547080",
+      "Password": "123",
+      "ConfirmPassword": "123",
       "roale": "user"
     },
     {
-      "id": "023d",
-      "name": "jigar",
-      "UserName": "jigar",
-      "email": "jigar@gmail.com",
-      "phone": "987654321",
-      "Password": "12345",
-      "ConfirmPassword": "12345",
-      "roale": "user"
-    },
-    {
-      "id": "27a3",
-      "name": "shreya",
-      "UserName": "shreya",
-      "email": "shreya@gmail.com",
-      "phone": "987654321",
+      "id": "fcd3",
+      "name": "mansvi",
+      "UserName": "mansvi",
+      "email": "mansvi@gmail.com",
+      "phone": "98765432110",
       "Password": "1234",
       "ConfirmPassword": "1234",
       "roale": "user"
     },
     {
-      "id": "c4af",
+      "id": "f9af",
+      "name": "shreya",
+      "UserName": "shreya",
+      "email": "shreya@gmail.com",
+      "phone": "876543234",
+      "Password": "12345",
+      "ConfirmPassword": "12345",
+      "roale": "user"
+    },
+    {
+      "id": "a315",
       "name": "sneha",
       "UserName": "sneha",
       "email": "sneha@gmail.com",
-      "phone": "9876543210",
-      "Password": "123",
-      "ConfirmPassword": "123",
+      "phone": "9988771023",
+      "Password": "321",
+      "ConfirmPassword": "321",
       "roale": "user"
     }
   ],
@@ -105,8 +95,9 @@
       "price": "₹52,999",
       "description": " iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity.",
       "img": "https://rukminim2.flixcart.com/image/832/832/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70&crop=false",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "c61a",
@@ -115,8 +106,9 @@
       "price": "₹1,39,999",
       "description": "Behold the Samsung Galaxy S24 Ultra smartphone, an exceptional amalgamation of incredible technology and superior sophistication.",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/f/n/u/-original-imagx9egm9mgmvab.jpeg?q=70&crop=false",
-      "marketStatus": "upcomming",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "Active"
     },
     {
       "id": "8597",
@@ -125,8 +117,9 @@
       "price": "₹12,999",
       "description": "With the superb Vivo T2x 5G, you can take advantage of great pictures and a flawless user experience.",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/k/u/n/-original-imagzjhwtfthcmzz.jpeg?q=70&crop=false",
-      "marketStatus": "latest",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "Active"
     },
     {
       "id": "a518",
@@ -135,8 +128,9 @@
       "price": "₹63,999",
       "description": "Experience smooth operation and brilliant user interface with the 5G-ready Google Pixel 7 Pro smartphone",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/z/g/q/-original-imaggsueh4b26fj7.jpeg?q=70&crop=false",
-      "marketStatus": "upcomming",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "Active"
     },
     {
       "id": "6070",
@@ -145,8 +139,9 @@
       "price": "₹1,299",
       "description": "The play tent gives your child a little space just for themselves, also a fun place to play or sleep. This tent has fun bright colors that will fuel kids' imaginations for hours of indoor play.",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/outdoor-toy/0/y/g/kids-play-tent-house-for-3-5-year-old-girls-and-boys-shree-original-imagmrwagnnke6hy.jpeg?q=70&crop=false",
-      "marketStatus": "latest",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "Active"
     },
     {
       "id": "2f9d",
@@ -155,8 +150,9 @@
       "price": "₹269",
       "description": " Hug n Feel soft toys brings to you high quality and novel designs in plush and stuffed toys",
       "img": "https://rukminim2.flixcart.com/image/832/832/l3ys70w0/stuffed-toy/f/l/v/long-soft-lovable-hugable-cute-giant-life-size-teddy-bear-original-imagezfk5fkdnczd.jpeg?q=70&crop=false",
-      "marketStatus": "upcomming",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "Active"
     },
     {
       "id": "f200",
@@ -165,8 +161,9 @@
       "price": "₹21,849",
       "description": " Kids can host the ultimate pool party with the Barbie Dreamhouse! This deluxe doll house has the tallest slide in the Barbie Dreamhouse series to date",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/doll-doll-house/y/n/q/-original-imagv3ruz3h63tpx.jpeg?q=70&crop=false",
-      "marketStatus": "upcomming",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "Active"
     },
     {
       "id": "fd32",
@@ -175,8 +172,9 @@
       "price": "₹2,199",
       "description": "Teddy Bear:Plush: 12 Inches Height",
       "img": "https://rukminim2.flixcart.com/image/832/832/km3s1ow0/stuffed-toy/n/k/7/soft-toys-big-teddy-bear-wearing-i-love-u-customise-your-name-t-original-imagf36eup9rhqyg.jpeg?q=70&crop=false",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "d150",
@@ -185,8 +183,9 @@
       "price": "₹26,511",
       "description": "The realme 4K TV is equipped with innovative features that will give you an immersive cinematic experience as soon as you play all your favourite movies.",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/television/h/0/x/-original-imaghgphu8kjtgvs.jpeg?q=70&crop=false",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "aa06",
@@ -195,8 +194,9 @@
       "price": "₹1,69,900",
       "description": "You can experience the power of the M2 chip on this redesigned MacBook Air. With a battery back up of up to 18 hours",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/computer/l/q/t/-original-imaguw3hwp55jj7b.jpeg?q=70&crop=false",
-      "marketStatus": "latest",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "Active"
     },
     {
       "id": "3fcc",
@@ -205,8 +205,9 @@
       "price": "₹31,999",
       "description": "This Motorola HDR10 TV brings to you 6 display modes, 4 sound modes, and 3D Dolby audio.",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/television/j/l/3/-original-imagtwtewzgfnvjp.jpeg?q=70&crop=false",
-      "marketStatus": "upcomming",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "Active"
     },
     {
       "id": "b985",
@@ -215,8 +216,9 @@
       "price": "₹52,990",
       "description": "You can enhance the aesthetics of your kitchen space with the Voltas Beko RSB585XPE 563 L Side-by-side Refrigerator. ",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/refrigerator-new/c/2/v/-original-imagtsct6d7sgege.jpeg?q=70&crop=false",
-      "marketStatus": "upcomming",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "Active"
     },
     {
       "id": "ff3a",
@@ -225,8 +227,9 @@
       "price": "₹291",
       "description": "This T-shirt is designed with an oversized and boxy fit, offering both comfort and contemporary fashion.",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/s/j/n/s-t-26-1st-bukkl-original-imagq9gtdzs5gy6n.jpeg?q=70&crop=false",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "5c4d",
@@ -235,8 +238,9 @@
       "price": "₹791",
       "description": "Black Tshirt for women Typography printed",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24310102/2023/8/31/f084f397-63e2-4d64-aa8c-e22dafb54d361693480213160BonkersCornerWomenBlackV-NeckDrop-ShoulderSleevesCutOutsLoos1.jpg",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "2953",
@@ -245,8 +249,9 @@
       "price": "₹1059",
       "description": "Beige & brown spider man printed sweatshirt has a round neck, long sleeves, ribbed hem",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/26322722/2023/12/8/03101c30-ac52-425b-98e1-0d4b0f86da861702039323166TheSouledStoreMenMulticolouredPrintedSweatshirt1.jpg",
-      "marketStatus": "latest",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "Active"
     },
     {
       "id": "a8a5",
@@ -255,8 +260,9 @@
       "price": "₹549",
       "description": "Yellow,fuchsia and green floral print fit & flare dress Round neck Sleeveless",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24181378/2023/7/27/e02162fd-6a93-462c-850a-8a497e8032e61690398441846Dresses1.jpg",
-      "marketStatus": "latest",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "Active"
     },
     {
       "id": "4f47",
@@ -265,8 +271,9 @@
       "price": "₹7799",
       "description": "A pair of round toe navy blue & white sneakers ,has regular styling, Lace-ups detail",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23506556/2023/6/1/7c6948fc-6713-45be-96f9-52ae8f862d371685628698782ALDOMenNavyBlueColourblockedSlip-OnSneakers1.jpg",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "fc51",
@@ -275,8 +282,9 @@
       "price": "₹1,710",
       "description": "Wipe with a clean, dry cloth when needed Lace Fastening",
       "img": "https://assets.ajio.com/medias/sys_master/root/20240213/nrPa/65cb713a05ac7d77bb5329f6/-473Wx593H-467069258-white-MODEL6.jpg ",
-      "marketStatus": "latest",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "Active"
     },
     {
       "id": "2cdf",
@@ -285,8 +293,9 @@
       "price": "₹749",
       "description": "he most stylish range of shoes, sandals and slippers are exclusively designed to match the latest trends of the new generation. ",
       "img": "https://assets.ajio.com/medias/sys_master/root/20230621/fHll/64927289d55b7d0c638d8721/-473Wx593H-463967670-black-MODEL6.jpg",
-      "marketStatus": "upcomming",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "Active"
     },
     {
       "id": "0540",
@@ -295,8 +304,9 @@
       "price": "₹4,645",
       "description": "Wipe with a clean, dry cloth when needed Forward heightened outsoles",
       "img": "https://assets.ajio.com/medias/sys_master/root/20231229/TD30/658ebb72afa4cf41f5f5bff5/-473Wx593H-469573520-blue-MODEL5.jpg",
-      "marketStatus": "latest",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "Active"
     },
     {
       "id": "4ae9",
@@ -305,8 +315,9 @@
       "price": "₹ 6,995",
       "description": "Embrace casual daytime outings with this watch featuring a captivating blue textured metal dial",
       "img": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw1888ad40/images/Titan/Catalog/1805QM01_1.jpg?sw=800&sh=800",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "332e",
@@ -315,8 +326,9 @@
       "price": "₹ 4,995.00",
       "description": "The latest Titan Smart 3.0 with a stunning 1.96\" AMOLED Display, boasting a 410 x 502 Pixel Resolution",
       "img": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw69175cab/images/Titan/Catalog/90188AP05_1.jpg?sw=800&sh=800",
-      "marketStatus": "latest",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "Active"
     },
     {
       "id": "639b",
@@ -325,8 +337,9 @@
       "price": "₹5,995",
       "description": "Clean the dial with a cotton cloth Water-resistant upto 50 m",
       "img": "https://assets.ajio.com/medias/sys_master/root/20210505/oMne/6092b5b0aeb269a9e3b1fdac/-473Wx593H-460901350-rosegold-MODEL.jpg",
-      "marketStatus": "upcomming",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "Active"
     },
     {
       "id": "b4d2",
@@ -335,8 +348,9 @@
       "price": "₹352",
       "description": "Clean the dial with a cotton cloth Stainless Steel",
       "img": "https://assets.ajio.com/medias/sys_master/root/20230621/KIcZ/6493280ad55b7d0c639e9d6c/-473Wx593H-466296274-black-MODEL3.jpg",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "d120",
@@ -345,8 +359,9 @@
       "price": " ₹224",
       "description": "Power Stay Non Transfer 12 Hours Stay Matte Liquid Lipstick 5 ml - Mauve 23",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/27419926/2024/2/8/77139106-a7d7-4160-aa49-206c47c1f7d21707375818040PERPAAPowerStayMatteLiquidLipstick-5ml-Mauve233.jpg",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "f56f",
@@ -355,8 +370,9 @@
       "price": "₹522",
       "description": "Apply 2-3 drops after cleansing and hydrating with Hyaluronic Acid in the morning (AM) and evening (PM).",
       "img": "https://assets.ajio.com/medias/sys_master/root/20230608/pJFS/64817766d55b7d0c635866f3/minimalist__alpha_arbutin_face_serum_with_hyaluronic_acid.jpg",
-      "marketStatus": "upcomming",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "Active"
     },
     {
       "id": "97bc",
@@ -365,8 +381,9 @@
       "price": "₹224",
       "description": "DeBelle Gel Nail Polish is a gel based, high-pigmentation formula which makes the nails to look beautiful and bright .",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/14693182/2024/2/7/acc8aa3e-88c1-4aec-9467-08ce53c45d301707284652169DeBelleGelNailLacquer-ViolaDew8ml4.jpg",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "199a",
@@ -375,8 +392,9 @@
       "price": "₹956",
       "description": "Feel confident about looking flawless with the Charmacy Milano Matte Foundation - 1.",
       "img": "https://assets.ajio.com/medias/sys_master/root/20230927/TU8e/65145838afa4cf41f5137e5e/charmacy_milano_multicoloured_matte_foundation_-_01.jpg",
-      "marketStatus": "latest",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "Active"
     },
     {
       "id": "3847",
@@ -385,8 +403,9 @@
       "price": "₹939",
       "description": "Bring liveliness to your floor with this beautifully printed runner from Athom Trendz.",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15702316/2021/10/2/358cd2f3-75d6-4fa4-86a2-5ef246f415881633113866058AthomTrendzBlueMaroonGeometricPrintedPremiumAntiSkidRunnerCa1.jpg",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "f3a3",
@@ -395,8 +414,9 @@
       "price": "₹880",
       "description": "1 meter Hard Wired Corded Electric, 220-240v, 60-watt Maximum Power",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/19085286/2022/7/13/4570ab30-082a-44d3-827f-31d6abcaf5ca1657711794661CeilingLamps1.jpg",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "6119",
@@ -405,8 +425,9 @@
       "price": "₹999",
       "description": "Rajasthanikart is your gateway to the vibrant and culturally rich state of Rajasthan, India. Our platform brings you a handpicked selection of authentic Rajasthani products, showcasing the finest craftsmanship and artistry of this majestic land.",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/26376708/2023/12/12/f7c74ca2-715a-4b61-b79c-4b4b2c0798001702371633592CottonPrinted3cushioncovers2bolstercoversandsinglebedcoverDe1.jpg",
-      "marketStatus": "upcomming",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "Active"
     },
     {
       "id": "b9bb",
@@ -415,8 +436,9 @@
       "price": "₹500",
       "description": "From paintings and photographs to sculptures and digital art, Art Street offers a wide selection of pieces to suit every taste and style.",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/22817220/2023/8/21/7490d8bb-40fc-4b54-8ff6-d3fae0b76a2e1692592882808-Art-Street-White-2-Pieces-Artificial-Daisy-Flowers-367169259-6.jpg",
-      "marketStatus": "latest",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "Active"
     },
     {
       "id": "9a86",
@@ -425,8 +447,9 @@
       "price": "₹438",
       "description": "Silver-toned rhodium-plated studded and beaded spherical studs Secured with a post and back closure",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15179194/2022/9/21/3b22a83f-d27b-4eea-8315-ee9e9ecafac71663759716044CarltonLondonSilver-TonedRhodium-PlatedStuddedBeadedSpherica1.jpg",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     },
     {
       "id": "1a22",
@@ -435,8 +458,9 @@
       "price": "₹499",
       "description": "Rose gold handcrafted link bracelet Material and stone type: brass with crystals Plating: rose gold-plated Closure: lobster closure",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16103948/2023/1/7/4a37abd1-aced-46ac-9090-8778964173871673082688812-MINUTIAE-Women-Brass-Crystals-Handcrafted-Rose-Gold-Plated-I-1.jpg",
+      "qty": 1,
       "marketStatus": "latset",
-      "status": "active"
+      "status": "Active"
     },
     {
       "id": "e7d4",
@@ -445,8 +469,9 @@
       "price": "₹399",
       "description": "Gold-toned Chain Material and stone type: brass with crystals Plating: gold-plated",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23428808/2023/6/8/109ed2e5-6bba-4e4d-bb6b-50b11cc10f7d1686207310973AIKABYMINUTIAEGold-PlatedBrassNecklace1.jpg",
+      "qty": 1,
       "marketStatus": "latset",
-      "status": "active"
+      "status": "Active"
     },
     {
       "id": "8640",
@@ -455,13 +480,14 @@
       "price": "₹512",
       "description": "Wipe your jewellery with a soft cloth after every use Always store your jewellery in a flat box to avoid accidental scratches",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23746008/2023/6/23/394a68f3-9ca9-4a72-8df6-897441063bd31687538568177Ring1.jpg",
-      "marketStatus": "best",
-      "status": "active"
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "Active"
     }
   ],
   "carts": [
     {
-      "id": "621b",
+      "id": "eb43",
       "name": "Apple iPhone 13",
       "price": "₹52,999",
       "description": " iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity.",
@@ -470,7 +496,7 @@
       "product": "d967"
     },
     {
-      "id": "d54d",
+      "id": "0a45",
       "name": "SAMSUNG Galaxy S24",
       "price": "₹1,39,999",
       "description": "Behold the Samsung Galaxy S24 Ultra smartphone, an exceptional amalgamation of incredible technology and superior sophistication.",
@@ -479,7 +505,7 @@
       "product": "c61a"
     },
     {
-      "id": "f377",
+      "id": "7452",
       "name": "Vivo T2x 5G",
       "price": "₹12,999",
       "description": "With the superb Vivo T2x 5G, you can take advantage of great pictures and a flawless user experience.",
@@ -488,12 +514,148 @@
       "product": "8597"
     },
     {
-      "id": "63b0",
-      "name": " Kids Play Tent",
-      "price": "₹1,299",
-      "description": "The play tent gives your child a little space just for themselves, also a fun place to play or sleep. This tent has fun bright colors that will fuel kids' imaginations for hours of indoor play.",
-      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/outdoor-toy/0/y/g/kids-play-tent-house-for-3-5-year-old-girls-and-boys-shree-original-imagmrwagnnke6hy.jpeg?q=70&crop=false",
-      "product": "6070"
+      "id": "da71",
+      "name": "Google Pixel 7 Pro",
+      "price": "₹63,999",
+      "description": "Experience smooth operation and brilliant user interface with the 5G-ready Google Pixel 7 Pro smartphone",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/z/g/q/-original-imaggsueh4b26fj7.jpeg?q=70&crop=false",
+      "user": "023d",
+      "product": "a518"
+    },
+    {
+      "id": "9a9e",
+      "name": "Apple iPhone 13",
+      "price": "₹52,999",
+      "description": " iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity.",
+      "img": "https://rukminim2.flixcart.com/image/832/832/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70&crop=false",
+      "user": "8002",
+      "product": "d967"
+    },
+    {
+      "id": "9a12",
+      "name": "Vivo T2x 5G",
+      "price": "₹12,999",
+      "description": "With the superb Vivo T2x 5G, you can take advantage of great pictures and a flawless user experience.",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/k/u/n/-original-imagzjhwtfthcmzz.jpeg?q=70&crop=false",
+      "user": "8002",
+      "product": "8597"
+    },
+    {
+      "id": "39b5",
+      "name": "Hug 'n' Feel Teddy Bear",
+      "price": "₹2,199",
+      "description": "Teddy Bear:Plush: 12 Inches Height",
+      "img": "https://rukminim2.flixcart.com/image/832/832/km3s1ow0/stuffed-toy/n/k/7/soft-toys-big-teddy-bear-wearing-i-love-u-customise-your-name-t-original-imagf36eup9rhqyg.jpeg?q=70&crop=false",
+      "user": "8002",
+      "product": "fd32"
+    },
+    {
+      "id": "8501",
+      "name": "Bonkers Corner",
+      "price": "₹791",
+      "description": "Black Tshirt for women Typography printed",
+      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24310102/2023/8/31/f084f397-63e2-4d64-aa8c-e22dafb54d361693480213160BonkersCornerWomenBlackV-NeckDrop-ShoulderSleevesCutOutsLoos1.jpg",
+      "user": "ae07",
+      "product": "5c4d"
+    },
+    {
+      "id": "8395",
+      "name": "CROCS",
+      "price": "₹4,645",
+      "description": "Wipe with a clean, dry cloth when needed Forward heightened outsoles",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20231229/TD30/658ebb72afa4cf41f5f5bff5/-473Wx593H-469573520-blue-MODEL5.jpg",
+      "user": "ae07",
+      "product": "0540"
+    },
+    {
+      "id": "89f5",
+      "name": "PERPAA",
+      "price": " ₹224",
+      "description": "Power Stay Non Transfer 12 Hours Stay Matte Liquid Lipstick 5 ml - Mauve 23",
+      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/27419926/2024/2/8/77139106-a7d7-4160-aa49-206c47c1f7d21707375818040PERPAAPowerStayMatteLiquidLipstick-5ml-Mauve233.jpg",
+      "user": "ae07",
+      "product": "d120"
+    },
+    {
+      "id": "72ac",
+      "name": "Jewels Galaxy",
+      "price": "₹512",
+      "description": "Wipe your jewellery with a soft cloth after every use Always store your jewellery in a flat box to avoid accidental scratches",
+      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23746008/2023/6/23/394a68f3-9ca9-4a72-8df6-897441063bd31687538568177Ring1.jpg",
+      "user": "ae07",
+      "product": "8640"
+    },
+    {
+      "id": "ee0d",
+      "name": "Apple iPhone 13",
+      "price": "₹52,999",
+      "description": " iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity.",
+      "img": "https://rukminim2.flixcart.com/image/832/832/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70&crop=false",
+      "user": "afa6",
+      "product": "d967"
+    },
+    {
+      "id": "ed41",
+      "name": "Oversized Boxy T-shirt for Men",
+      "price": "₹291",
+      "description": "This T-shirt is designed with an oversized and boxy fit, offering both comfort and contemporary fashion.",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/s/j/n/s-t-26-1st-bukkl-original-imagq9gtdzs5gy6n.jpeg?q=70&crop=false",
+      "user": "afa6",
+      "product": "ff3a"
+    },
+    {
+      "id": "64f7",
+      "name": "BIG FOX",
+      "price": "₹749",
+      "description": "he most stylish range of shoes, sandals and slippers are exclusively designed to match the latest trends of the new generation. ",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20230621/fHll/64927289d55b7d0c638d8721/-473Wx593H-463967670-black-MODEL6.jpg",
+      "user": "afa6",
+      "product": "2cdf"
+    },
+    {
+      "id": "4d08",
+      "name": "Titan Neo Splash",
+      "price": "₹ 6,995",
+      "description": "Embrace casual daytime outings with this watch featuring a captivating blue textured metal dial",
+      "img": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw1888ad40/images/Titan/Catalog/1805QM01_1.jpg?sw=800&sh=800",
+      "user": "afa6",
+      "product": "4ae9"
+    },
+    {
+      "id": "267f",
+      "name": "SAMSUNG Galaxy S24",
+      "price": "₹1,39,999",
+      "description": "Behold the Samsung Galaxy S24 Ultra smartphone, an exceptional amalgamation of incredible technology and superior sophistication.",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/f/n/u/-original-imagx9egm9mgmvab.jpeg?q=70&crop=false",
+      "user": "fcd3",
+      "product": "c61a"
+    },
+    {
+      "id": "d0ea",
+      "name": "Bonkers Corner",
+      "price": "₹791",
+      "description": "Black Tshirt for women Typography printed",
+      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24310102/2023/8/31/f084f397-63e2-4d64-aa8c-e22dafb54d361693480213160BonkersCornerWomenBlackV-NeckDrop-ShoulderSleevesCutOutsLoos1.jpg",
+      "user": "fcd3",
+      "product": "5c4d"
+    },
+    {
+      "id": "c5b1",
+      "name": "CROCS",
+      "price": "₹4,645",
+      "description": "Wipe with a clean, dry cloth when needed Forward heightened outsoles",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20231229/TD30/658ebb72afa4cf41f5f5bff5/-473Wx593H-469573520-blue-MODEL5.jpg",
+      "user": "fcd3",
+      "product": "0540"
+    },
+    {
+      "id": "3444",
+      "name": "CASIO",
+      "price": "₹5,995",
+      "description": "Clean the dial with a cotton cloth Water-resistant upto 50 m",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20210505/oMne/6092b5b0aeb269a9e3b1fdac/-473Wx593H-460901350-rosegold-MODEL.jpg",
+      "user": "fcd3",
+      "product": "639b"
     }
   ]
 }

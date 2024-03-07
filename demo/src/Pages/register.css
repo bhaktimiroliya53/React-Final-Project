@@ -29,7 +29,7 @@
 
 .container .title {
     font-size: 25px;
-    color: white;
+    color: #67fcf2;
     font-weight: 500;
     position: relative;
 }
@@ -39,14 +39,14 @@
     position: absolute;
     height: 3.5px;
     width: 30px;
-    background: white;
+    background: #67fcf2;
     left: 0;
     bottom: 0;
 }
 
 .container form .user__details {
     display: flex;
-    color: white;
+    color: #67fcf2;
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 20px 0 12px 0;
@@ -131,20 +131,20 @@ form .button input {
     height: 100%;
     width: 100%;
     outline: none;
-    color: #000000;
+    color: #fff;
     border: none;
     font-size: 18px;
     font-weight: 500;
     border-radius: 5px;
-    background: white;
-    border: 1px solid white;
-    transition: all 0.3s ease;
+    background: transparent;
+    border: 1px solid #67fcf2;
+    transition: all 0.5s ease;
 }
 
 form .button input:hover {
-    background: transparent;
-    border: 1px solid white;
-    color: #fff;
+    background: #67fcf2;
+    border: 1px solid #67fcf2;
+    color: #000;
 }
 
 @media only screen and (max-width: 584px) {

@@ -13,7 +13,7 @@ ol {
 //NAVBAR CSS
 
 .navbar {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid #67fcf2;
   width: 100%;
   background-color: #000000;
   align-items: center;
@@ -64,8 +64,6 @@ ol {
 header {
   display: flex;
   justify-content: space-between;
-  
-
 
   .main-header {
     display: flex;
@@ -84,11 +82,11 @@ header {
 
           button {
             background-color: transparent;
-            color: #67fcf2;
+            color: #fff;
             border: 1px solid #67fcf2;
             padding: 5px 10px;
             border-radius: 5px;
-            font-weight: 600;
+            font-weight: 4 00;
             transition: all 0.6s;
           }
 
@@ -113,12 +111,12 @@ html {
   padding: 0 0 25px;
 }
 
-h1 {
-  font-size: 20px;
-  font-weight: 500;
-  margin-bottom: 25px;
-  text-align: center;
-}
+// h1 {
+//   font-size: 20px;
+//   font-weight: 500;
+//   margin-bottom: 25px;
+//   text-align: center;
+// }
 
 .clearfix:before,
 .clearfix:after {

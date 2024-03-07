@@ -6,6 +6,7 @@ import './Pages/Pages.css'
 import './Pages/Admin/Products/product.css'
 import './Pages/Admin/Admin.css'
 import './Pages/User/user.css'
+import './Pages/Admin/UserDetails.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Login from './Pages/Login';
 import Register from './Pages/Register';
@@ -17,6 +18,9 @@ import AddPRoducts from './Pages/Admin/Products/AddPRoducts';
 import Home from './Pages/User/Home';
 import Userproduct from './Pages/User/Userproduct';
 import Cart from './Pages/User/Cart';
+import View from './Pages/User/View';
+import UserDetails from './Pages/Admin/UserDetails';
+import User from './Pages/Admin/User';
 
 function App() {
   return (
@@ -30,12 +34,15 @@ function App() {
           <Route path='/admin/Addcategory' element={<AddCategory/>}/>
           <Route path='/admin/Products' element={<Products/>}/>
           <Route path='/admin/AddProducts' element={<AddPRoducts/>}/>
+          <Route path='/admin/userdetails' element={<UserDetails/>}/>
+          <Route path='/admin/user' element={<User/>}/>
 
           {/* USER  */}
 
           <Route path='/home' element={<Home/>}/>
           <Route path='/product' element={<Userproduct/>}/>
           <Route path='/cart' element={<Cart/>}/>
+          <Route path='/view/:id' element={<View/>}/>
 
         </Routes>
       </BrowserRouter>

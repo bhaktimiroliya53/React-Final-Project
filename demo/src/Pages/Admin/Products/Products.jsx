@@ -1,13 +1,22 @@
 import React, { useEffect, useState } from 'react'
 import Header from '../../Header'
 import LeftSidebar from '../LeftSidebar'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import Nav from '../../Nav'
+import { useAuth } from '../../../Context/Auth'
 
 function Products() {
 
+  const [auth , setAuth] = useAuth()
+  const navigate = useNavigate('')
   const [products, setProducts] = useState([])
+
+  useEffect(() => {
+    if(auth?.user?.roale === "user"){
+        navigate('/')
+    }
+},[])
 
   const getProduct = async () => {
     try {

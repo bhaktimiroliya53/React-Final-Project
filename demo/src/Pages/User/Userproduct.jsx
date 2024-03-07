@@ -3,13 +3,13 @@ import Header from '../Header'
 import { Link, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 import { useAuth } from '../../Context/Auth'
-import { toast } from 'react-toastify'
+import { ToastContainer, toast } from 'react-toastify'
 import Navbar from '../Nav'
 
 function Userproduct() {
 
     const navigate = useNavigate()
-    const [auth , setAuth] = useAuth()
+    const [auth, setAuth] = useAuth()
     const [category, setCategory] = useState([])
     const [product, setProduct] = useState([])
     const [cat, setcat] = useState('')
@@ -33,7 +33,7 @@ function Userproduct() {
                 console.log(cat);
                 setProduct(res.data)
             }).catch((err) => {
-                console.log(err); 
+                console.log(err);
                 return false
             })
     }, [marketStatus])
@@ -62,43 +62,43 @@ function Userproduct() {
         }
     }
 
-    const Addcart = async(id) => {
-        if(!auth.user){
+    const Addcart = async (id) => {
+        if (!auth.user) {
             alert("Please Login Here")
             navigate('/')
         }
-        try{
+        try {
             let singleData = await axios.get(`http://localhost:8000/products/${id}`);
             // console.log(singleData.data);
 
             let record = singleData.data;
 
             // console.log(record);
-            
+
             let duplicate = await axios.get(`http://localhost:8000/carts?user=${auth.user.id}&product=${record.id}`)
 
             // console.log(duplicate.data);
             // console.log(record.id);
             console.log(auth.user);
             console.log(auth.user.id);
-            
-            if(!(duplicate.data != 0)){
-                let addcart = await axios.post(`http://localhost:8000/carts`,{
-                    name : record.name,
-                    price : record.price,
-                    description : record.description,
-                    img : record.img, 
-                    user : auth.user.id,
-                    product : record.id
+
+            if (!(duplicate.data != 0)) {
+                let addcart = await axios.post(`http://localhost:8000/carts`, {
+                    name: record.name,
+                    price: record.price,
+                    description: record.description,
+                    img: record.img,
+                    user: auth.user.id,
+                    product: record.id
                 })
-               
+
                 toast.success('Product Successfully Added')
-            }else{
+            } else {
                 toast.error('Product Alredy Add')
                 return false;
             }
 
-        }catch(err){
+        } catch (err) {
             console.log(err);
             return false;
         }
@@ -111,7 +111,7 @@ function Userproduct() {
 
     return (
         <>
-            <Navbar/>   
+            <Navbar />
             <Header />
             <div className="row">
                 <div className="fillter d-flex">
@@ -163,15 +163,19 @@ function Userproduct() {
                             product.map((val) => {
                                 return (
                                     <div className='col-lg-3'>
-                                        <div className="card p-3 mb-5 text-center" style={{ width: '300px', height: '400px' }}>
+                                        <div className="card mb-5 p-3 text-center" style={{ width: '300px', height: '430px' }}>
                                             <img src={val.img} style={{ objectFit: "contain", height: "250px" }} className="card-img-top" alt="..." />
-                                            <div className="card-body">
+                                            <div className="card-body" style={{padding : '0'}}>
                                                 <h5 className="card-title">{val.category}</h5>
                                                 <hr />
                                                 <p className="card-text"></p>
                                                 <h5>{val.price}</h5>
-                                                <button className="btn btn-primary btn-sm" style={{ fontSize: '16px' }} onClick={() => Addcart(val.id)}>Add Cart</button>
-                                                <button className="btn btn-success btn-sm ms-2" style={{ fontSize: '16px' }}>View Details</button>
+                                                <div className="d-flex justify-content-center">
+                                                <button className="btn btn-primary" style={{ fontSize: '16px' }} onClick={() => Addcart(val.id)}>Add Cart</button>
+                                                <Link to={`/view/${val.id}`}>
+                                                    <button className="btn btn-success ms-2" style={{ fontSize: '16px' }}>View Details</button>
+                                                </Link>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
@@ -179,6 +183,7 @@ function Userproduct() {
                             })
                         }
                     </div>
+                    <ToastContainer />
                 </div>
             </div>
         </>

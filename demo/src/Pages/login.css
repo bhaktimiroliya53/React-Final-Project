@@ -35,7 +35,7 @@
   font-size: 24px;
   font-weight: bold;
   letter-spacing: .5px;
-  color: white;
+  color: #67fcf2;
 }
 
 .logincontainer{
@@ -59,7 +59,7 @@
 
 .main-input:focus {
   outline: none;
-  border-bottom-color: #42ff1c;
+  border-bottom-color: #67fcf2;
 }
 
 .lebal-email {
@@ -79,7 +79,7 @@
 .main-input:valid ~ .lebal-email {
   top: -20px;
   font-size: 14px;
-  color: #42ff1c;
+  color: #67fcf2;
 }
 
 .highlight-span {
@@ -99,7 +99,7 @@
 
 @keyframes input-focus {
   from {
-    background: #42ff1c;
+    background: #67fcf2;
   }
 
   to {
@@ -111,13 +111,15 @@
   margin-top: 30px;
   padding: 10px 20px;
   border-radius: 5px;
-  border: 1px solid white;
+  border: 1px solid #67fcf2;
   transition: all 0.5s ease;
+  background-color: transparent;
+  color: #fff;
 }
 
 .submit:hover {
-  border: 1px solid white;
-  background-color: transparent;
-  color: #fff;
+  border: 1px solid #67fcf2;
+  background-color: #67fcf2;
+  color: black;
   border-radius: 5px;
 }
