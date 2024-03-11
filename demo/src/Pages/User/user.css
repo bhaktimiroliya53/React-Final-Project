@@ -10,6 +10,7 @@ ul, ol {
   width: 350px;
   display: flex;
   justify-content: center;
+  height: 100%;
 }
 .fillter h2 {
   font-size: 38px;

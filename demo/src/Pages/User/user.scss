@@ -11,7 +11,8 @@ ul , ol{
     background-color: rgb(30, 30, 30);
     width: 350px;
     display: flex;
-    justify-content: center;    
+    justify-content: center; 
+    height: 100%;   
 
     h2 {
         font-size: 38px;
@@ -28,7 +29,7 @@ ul , ol{
         height: 100vh;
         display: flex;
         justify-content: center;
-        .list-group-item {
+        .list-group-item {       
             background-color: transparent;
             border: none;
             button {

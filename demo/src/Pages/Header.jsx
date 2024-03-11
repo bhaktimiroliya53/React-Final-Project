@@ -20,11 +20,11 @@ function Header() {
         <>
             <header>
                 <div className="main-header">
-                <div className="HeaderLogo">
+                    <div className="HeaderLogo">
                         <img src="https://i.pinimg.com/736x/57/b4/ec/57b4ec7187e70604b67171452753f28b--unique-logo-be-unique.jpg" width={200} />
                     </div>
                     <div className="HeaderList">
-                        <ul> 
+                        <ul>
                             {
                                 (!auth.user) ? (<>
                                     <li className="nav-item">

@@ -18,6 +18,19 @@ function Products() {
     }
 },[])
 
+  const deleteCard = async(id) => {
+    try {
+      let { data } = await axios.delete(`http://localhost:8000/products/${id}`);
+      let del = products.filter((val)=>{
+        return val.id !== id
+      })
+      setProducts(del)
+    } catch (error) {
+      console.log(error);
+      return false
+    }
+  }
+
   const getProduct = async () => {
     try {
       let { data } = await axios.get(`http://localhost:8000/products`);
@@ -57,7 +70,7 @@ function Products() {
                     <div className="wrapper">
                       <div className="card">
                         <div className="face front">
-                          <img src={val.img} alt="city" />
+                          <img src={val.img} alt="city" style={{height : '250px', marginTop : '10px'}}/>
                           <h1 className="text-h1">{val.category}</h1>
                         </div>
                         <div className="face back">
@@ -67,7 +80,7 @@ function Products() {
                             {val.description}
                           </p>
                           <div className="links">
-                            <a className="link-a" href="#">Details</a>
+                            <button className="link-a" href="#" onClick={() => deleteCard(val.id)}>Delete</button>
                           </div>
                         </div>
                       </div>

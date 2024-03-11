@@ -20,7 +20,6 @@ import Userproduct from './Pages/User/Userproduct';
 import Cart from './Pages/User/Cart';
 import View from './Pages/User/View';
 import UserDetails from './Pages/Admin/UserDetails';
-import User from './Pages/Admin/User';
 
 function App() {
   return (
@@ -34,8 +33,7 @@ function App() {
           <Route path='/admin/Addcategory' element={<AddCategory/>}/>
           <Route path='/admin/Products' element={<Products/>}/>
           <Route path='/admin/AddProducts' element={<AddPRoducts/>}/>
-          <Route path='/admin/userdetails' element={<UserDetails/>}/>
-          <Route path='/admin/user' element={<User/>}/>
+          <Route path='/admin/userdetails/:id' element={<UserDetails/>}/>
 
           {/* USER  */}
 

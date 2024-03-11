@@ -10,14 +10,11 @@ function LeftSidebar() {
                         <div className="list-group">
                             <ul className='list-items'>
                                 <li>
-                                    <Link to={'/admin/dashboard'}><button className="btn btn-outline-light">DashBord</button></Link>
+                                    <Link to={'/admin/dashboard'}><button className="btn btn-outline-light">DashBoard</button></Link>
                                 </li>
-                                <li>
-                                    <Link to={'/admin/user'}><button className="btn btn-outline-light">User</button></Link>
-                                </li>
-                                <li>
+                                {/* <li>
                                     <Link to={'/admin/userdetails'}><button className="btn btn-outline-light">UserDetails</button></Link>
-                                </li>
+                                </li> */}
                                 <li>
                                     <Link to={'/admin/category'}><button className="btn btn-outline-light">Category</button></Link>
                                 </li>

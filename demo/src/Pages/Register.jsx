@@ -13,7 +13,7 @@ function Regesiter() {
   const [email, setEmail] = useState('')
   const [phone, setPhone] = useState('');
   const [Password, setPassword] = useState('');
-  const [ConfirmPassword, setConfirmPassword] = useState('');
+  // const [ConfirmPassword, setConfirmPassword] = useState('');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -24,7 +24,7 @@ function Regesiter() {
         email: email,
         phone: phone,
         Password: Password,
-        ConfirmPassword: ConfirmPassword,
+        // ConfirmPassword: ConfirmPassword,
         roale: "user"
       });
       console.log(data);
@@ -34,7 +34,7 @@ function Regesiter() {
       setEmail('')
       setPhone('')
       setPassword('')
-      setConfirmPassword('')
+      // setConfirmPassword('')
       navigate('/')
 
       console.log(data);
@@ -70,14 +70,14 @@ function Regesiter() {
                 <span className="details">Phone Number</span>
                 <input type="tel" placeholder="012-345-6789" required onChange={(e) => setPhone(e.target.value)} value={[phone]} />
               </div>
-              <div className="input__box">
+              <div className="input__box" style={{marginLeft : '70px', width : '500px'}}>
                 <span className="details">Password</span>
                 <input type="password" placeholder="********" required onChange={(e) => setPassword(e.target.value)} value={Password} />
               </div>
-              <div className="input__box">
+              {/* <div className="input__box">
                 <span className="details">Confirm Password</span>
                 <input type="password" placeholder="********" required onChange={(e) => setConfirmPassword(e.target.value)} value={ConfirmPassword} />
-              </div>
+              </div> */}
             </div>
             <div className="button">
               <input type="submit" defaultValue="Register" />

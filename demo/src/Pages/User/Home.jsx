@@ -40,10 +40,10 @@ function Home() {
               return (
 
                 <div className="col-lg-3">
-                  <div className="card p-4" style={{ width: '18rem' }}>
-                    <img src={val.img} height="200" style={{ objectFit: "contain", marginTop : '20px'}} className="card-img-top" alt="..." />
+                  <div className="card p-4" style={{ width: '18rem', height : '400px' }}>
+                    <img src={val.img} style={{ objectFit: "contain", marginTop : '20px' , height : '200px'}} className="card-img-top" alt="..." />
                     <div className="card-body text-center">
-                      <h1 className="card-title">{val.name}</h1>
+                      <h1 className="h1 card-title">{val.name}</h1>
                       <h4 className="card-text">{val.price}</h4>
                     </div>
                   </div>

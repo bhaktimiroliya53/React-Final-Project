@@ -7,7 +7,7 @@
 }
 
 body {
-	font-family: 'Poppins', sans-serif;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 }
@@ -28,9 +28,10 @@ a {
 
 .card {
 	position: relative;
-	width: 350px;
-	height: 350px;
+	width: 250px;
+	height: 300px;
 	margin: 10px;
+	margin-left: 40px;
 }
 
 .face {
@@ -64,7 +65,7 @@ a {
 	color: #fff;
 	background: rgba(0, 0, 0, .4);
 	text-align: center;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .card .back {
@@ -78,9 +79,15 @@ a {
 	color: rgb(246, 246, 246);
 	text-align: center;
 	box-shadow: 0 5px 10px #fff;
+	font-size: 16px;
+	transition: 0.5s all;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.text-p {}
+.card .back h2 {
+	font-size: 18px;
+	font-weight: bold;
+}
 
 .links {
 	border-top: 1px solid rgb(246, 246, 246);
@@ -93,8 +100,9 @@ a {
 }
 
 .card .back .text-h2 {
-	font-size: 30px;
+	font-size: 20px;
 	letter-spacing: 2px;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .card .back .text-p {

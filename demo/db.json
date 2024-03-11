@@ -9,16 +9,6 @@
       "id": "1"
     },
     {
-      "id": "fa01",
-      "name": "purvi",
-      "UserName": "purvi",
-      "email": "puriv@gmail.com",
-      "phone": "9876547080",
-      "Password": "123",
-      "ConfirmPassword": "123",
-      "roale": "user"
-    },
-    {
       "id": "fcd3",
       "name": "mansvi",
       "UserName": "mansvi",
@@ -46,6 +36,26 @@
       "phone": "9988771023",
       "Password": "321",
       "ConfirmPassword": "321",
+      "roale": "user"
+    },
+    {
+      "id": "491a",
+      "name": "Jigar",
+      "UserName": "Jigar",
+      "email": "jigar@gmail.com",
+      "phone": "9876543210",
+      "Password": "54321",
+      "ConfirmPassword": "54321`",
+      "roale": "user"
+    },
+    {
+      "id": "b447",
+      "name": "purvi",
+      "UserName": "purvi",
+      "email": "purvi@gmail.com",
+      "phone": "9867453219",
+      "Password": "123",
+      "ConfirmPassword": "123",
       "roale": "user"
     }
   ],
@@ -85,107 +95,45 @@
     {
       "id": "564d",
       "category": "Jewellery"
+    },
+    {
+      "id": "4aee",
+      "category": "Bags"
     }
   ],
   "products": [
     {
-      "id": "d967",
+      "id": "aa56",
       "category": "Mobile",
       "name": "Apple iPhone 13",
       "price": "₹52,999",
-      "description": " iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures with immaculate clarity.",
+      "description": " iPhone 13. boasts an advanced dual-camera system that allows you to click mesmerising pictures ",
       "img": "https://rukminim2.flixcart.com/image/832/832/ktketu80/mobile/6/n/d/iphone-13-mlpg3hn-a-apple-original-imag6vpyghayhhrh.jpeg?q=70&crop=false",
       "qty": 1,
-      "marketStatus": "Best",
-      "status": "Active"
-    },
-    {
-      "id": "c61a",
-      "category": "Mobile",
-      "name": "SAMSUNG Galaxy S24",
-      "price": "₹1,39,999",
-      "description": "Behold the Samsung Galaxy S24 Ultra smartphone, an exceptional amalgamation of incredible technology and superior sophistication.",
-      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/f/n/u/-original-imagx9egm9mgmvab.jpeg?q=70&crop=false",
-      "qty": 1,
       "marketStatus": "Upcomming",
-      "status": "Active"
+      "status": "active"
     },
     {
-      "id": "8597",
+      "id": "4f76",
       "category": "Mobile",
-      "name": "Vivo T2x 5G",
+      "name": "POCO M6 Pro 5G",
       "price": "₹12,999",
-      "description": "With the superb Vivo T2x 5G, you can take advantage of great pictures and a flawless user experience.",
-      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/k/u/n/-original-imagzjhwtfthcmzz.jpeg?q=70&crop=false",
+      "description": "This Poco M6 Pro 5G smartphone is powered by a powerful 4nm Snapdragon 4 Gen 2 processor",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/d/h/q/m6-pro-5g-mzb0eprin-poco-original-imags3e7vewsafst.jpeg?q=70&crop=false",
       "qty": 1,
-      "marketStatus": "Latest",
-      "status": "Active"
+      "marketStatus": "Best",
+      "status": "active"
     },
     {
-      "id": "a518",
+      "id": "9aeb",
       "category": "Mobile",
-      "name": "Google Pixel 7 Pro",
-      "price": "₹63,999",
-      "description": "Experience smooth operation and brilliant user interface with the 5G-ready Google Pixel 7 Pro smartphone",
-      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/z/g/q/-original-imaggsueh4b26fj7.jpeg?q=70&crop=false",
-      "qty": 1,
-      "marketStatus": "Upcomming",
-      "status": "Active"
-    },
-    {
-      "id": "6070",
-      "category": "Toy",
-      "name": " Kids Play Tent",
-      "price": "₹1,299",
-      "description": "The play tent gives your child a little space just for themselves, also a fun place to play or sleep. This tent has fun bright colors that will fuel kids' imaginations for hours of indoor play.",
-      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/outdoor-toy/0/y/g/kids-play-tent-house-for-3-5-year-old-girls-and-boys-shree-original-imagmrwagnnke6hy.jpeg?q=70&crop=false",
+      "name": "Google Pixel 7a",
+      "price": "₹37,999",
+      "description": " Experience the simplicity and seamless transitions with the Google Pixel 7a",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/mobile/v/f/d/-original-imagpgx4g2m63gfh.jpeg?q=70&crop=false",
       "qty": 1,
       "marketStatus": "Latest",
-      "status": "Active"
-    },
-    {
-      "id": "2f9d",
-      "category": "Toy",
-      "name": "Soft Lovable hugable",
-      "price": "₹269",
-      "description": " Hug n Feel soft toys brings to you high quality and novel designs in plush and stuffed toys",
-      "img": "https://rukminim2.flixcart.com/image/832/832/l3ys70w0/stuffed-toy/f/l/v/long-soft-lovable-hugable-cute-giant-life-size-teddy-bear-original-imagezfk5fkdnczd.jpeg?q=70&crop=false",
-      "qty": 1,
-      "marketStatus": "Upcomming",
-      "status": "Active"
-    },
-    {
-      "id": "f200",
-      "category": "Toy",
-      "name": "BARBIE Dreamhouse",
-      "price": "₹21,849",
-      "description": " Kids can host the ultimate pool party with the Barbie Dreamhouse! This deluxe doll house has the tallest slide in the Barbie Dreamhouse series to date",
-      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/doll-doll-house/y/n/q/-original-imagv3ruz3h63tpx.jpeg?q=70&crop=false",
-      "qty": 1,
-      "marketStatus": "Upcomming",
-      "status": "Active"
-    },
-    {
-      "id": "fd32",
-      "category": "Toy",
-      "name": "Hug 'n' Feel Teddy Bear",
-      "price": "₹2,199",
-      "description": "Teddy Bear:Plush: 12 Inches Height",
-      "img": "https://rukminim2.flixcart.com/image/832/832/km3s1ow0/stuffed-toy/n/k/7/soft-toys-big-teddy-bear-wearing-i-love-u-customise-your-name-t-original-imagf36eup9rhqyg.jpeg?q=70&crop=false",
-      "qty": 1,
-      "marketStatus": "Best",
-      "status": "Active"
-    },
-    {
-      "id": "d150",
-      "category": "Electronic",
-      "name": "Realme 108",
-      "price": "₹26,511",
-      "description": "The realme 4K TV is equipped with innovative features that will give you an immersive cinematic experience as soon as you play all your favourite movies.",
-      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/television/h/0/x/-original-imaghgphu8kjtgvs.jpeg?q=70&crop=false",
-      "qty": 1,
-      "marketStatus": "Best",
-      "status": "Active"
+      "status": "active"
     },
     {
       "id": "aa06",
@@ -223,7 +171,7 @@
     {
       "id": "ff3a",
       "category": "Clothes",
-      "name": "Oversized Boxy T-shirt for Men",
+      "name": "Oversized Boxy",
       "price": "₹291",
       "description": "This T-shirt is designed with an oversized and boxy fit, offering both comfort and contemporary fashion.",
       "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/s/j/n/s-t-26-1st-bukkl-original-imagq9gtdzs5gy6n.jpeg?q=70&crop=false",
@@ -240,17 +188,6 @@
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24310102/2023/8/31/f084f397-63e2-4d64-aa8c-e22dafb54d361693480213160BonkersCornerWomenBlackV-NeckDrop-ShoulderSleevesCutOutsLoos1.jpg",
       "qty": 1,
       "marketStatus": "Best",
-      "status": "Active"
-    },
-    {
-      "id": "2953",
-      "category": "Clothes",
-      "name": "Sweatshirt",
-      "price": "₹1059",
-      "description": "Beige & brown spider man printed sweatshirt has a round neck, long sleeves, ribbed hem",
-      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/26322722/2023/12/8/03101c30-ac52-425b-98e1-0d4b0f86da861702039323166TheSouledStoreMenMulticolouredPrintedSweatshirt1.jpg",
-      "qty": 1,
-      "marketStatus": "Latest",
       "status": "Active"
     },
     {
@@ -273,17 +210,6 @@
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23506556/2023/6/1/7c6948fc-6713-45be-96f9-52ae8f862d371685628698782ALDOMenNavyBlueColourblockedSlip-OnSneakers1.jpg",
       "qty": 1,
       "marketStatus": "Best",
-      "status": "Active"
-    },
-    {
-      "id": "fc51",
-      "category": "Sneakers",
-      "name": "RED TAPE",
-      "price": "₹1,710",
-      "description": "Wipe with a clean, dry cloth when needed Lace Fastening",
-      "img": "https://assets.ajio.com/medias/sys_master/root/20240213/nrPa/65cb713a05ac7d77bb5329f6/-473Wx593H-467069258-white-MODEL6.jpg ",
-      "qty": 1,
-      "marketStatus": "Latest",
       "status": "Active"
     },
     {
@@ -342,17 +268,6 @@
       "status": "Active"
     },
     {
-      "id": "b4d2",
-      "category": "Watch",
-      "name": "SKYLONA",
-      "price": "₹352",
-      "description": "Clean the dial with a cotton cloth Stainless Steel",
-      "img": "https://assets.ajio.com/medias/sys_master/root/20230621/KIcZ/6493280ad55b7d0c639e9d6c/-473Wx593H-466296274-black-MODEL3.jpg",
-      "qty": 1,
-      "marketStatus": "Best",
-      "status": "Active"
-    },
-    {
       "id": "d120",
       "category": "Beauty Product",
       "name": "PERPAA",
@@ -383,17 +298,6 @@
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/14693182/2024/2/7/acc8aa3e-88c1-4aec-9467-08ce53c45d301707284652169DeBelleGelNailLacquer-ViolaDew8ml4.jpg",
       "qty": 1,
       "marketStatus": "Best",
-      "status": "Active"
-    },
-    {
-      "id": "199a",
-      "category": "Beauty Product",
-      "name": "CHARMACY MILANO",
-      "price": "₹956",
-      "description": "Feel confident about looking flawless with the Charmacy Milano Matte Foundation - 1.",
-      "img": "https://assets.ajio.com/medias/sys_master/root/20230927/TU8e/65145838afa4cf41f5137e5e/charmacy_milano_multicoloured_matte_foundation_-_01.jpg",
-      "qty": 1,
-      "marketStatus": "Latest",
       "status": "Active"
     },
     {
@@ -430,28 +334,6 @@
       "status": "Active"
     },
     {
-      "id": "b9bb",
-      "category": "Home-Living",
-      "name": " Art Street",
-      "price": "₹500",
-      "description": "From paintings and photographs to sculptures and digital art, Art Street offers a wide selection of pieces to suit every taste and style.",
-      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/22817220/2023/8/21/7490d8bb-40fc-4b54-8ff6-d3fae0b76a2e1692592882808-Art-Street-White-2-Pieces-Artificial-Daisy-Flowers-367169259-6.jpg",
-      "qty": 1,
-      "marketStatus": "Latest",
-      "status": "Active"
-    },
-    {
-      "id": "9a86",
-      "category": "Jewellery",
-      "name": "Carlton London",
-      "price": "₹438",
-      "description": "Silver-toned rhodium-plated studded and beaded spherical studs Secured with a post and back closure",
-      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15179194/2022/9/21/3b22a83f-d27b-4eea-8315-ee9e9ecafac71663759716044CarltonLondonSilver-TonedRhodium-PlatedStuddedBeadedSpherica1.jpg",
-      "qty": 1,
-      "marketStatus": "Best",
-      "status": "Active"
-    },
-    {
       "id": "1a22",
       "category": "Jewellery",
       "name": "MINUTIAE",
@@ -459,7 +341,7 @@
       "description": "Rose gold handcrafted link bracelet Material and stone type: brass with crystals Plating: rose gold-plated Closure: lobster closure",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/16103948/2023/1/7/4a37abd1-aced-46ac-9090-8778964173871673082688812-MINUTIAE-Women-Brass-Crystals-Handcrafted-Rose-Gold-Plated-I-1.jpg",
       "qty": 1,
-      "marketStatus": "latset",
+      "marketStatus": "Latest",
       "status": "Active"
     },
     {
@@ -470,7 +352,7 @@
       "description": "Gold-toned Chain Material and stone type: brass with crystals Plating: gold-plated",
       "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/23428808/2023/6/8/109ed2e5-6bba-4e4d-bb6b-50b11cc10f7d1686207310973AIKABYMINUTIAEGold-PlatedBrassNecklace1.jpg",
       "qty": 1,
-      "marketStatus": "latset",
+      "marketStatus": "Latest",
       "status": "Active"
     },
     {
@@ -483,6 +365,72 @@
       "qty": 1,
       "marketStatus": "Best",
       "status": "Active"
+    },
+    {
+      "id": "deb2",
+      "category": "Bags",
+      "name": "Ajio Bag",
+      "price": "₹1,197",
+      "description": "a lightweight, flexible container meant for carrying things. ",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20230825/kHYV/64e85779ddf77915197b11f0/-473Wx593H-466493899-pink-MODEL.jpg",
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "active"
+    },
+    {
+      "id": "6839",
+      "category": "Bags",
+      "name": "SAFARI ",
+      "price": "₹599",
+      "description": "Safari is committed to providing the best in class product to its consumer",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/backpack/v/a/o/-original-imagz6ygjkzgfxhg.jpeg?q=70&crop=false",
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "active"
+    },
+    {
+      "id": "d913",
+      "category": "Bags",
+      "name": "Lenovo ",
+      "price": "₹479",
+      "description": "The Lenovo 39.62cms (15.6) Value Plus Backpack is made from high quality water repellent and tear-resistant material for lasting durability",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/backpack/0/t/1/6-premium-lenovo-everyday-laptop-backpack-lenovo-15-6-inch-original-imagmqykcsvgrb2y.jpeg?q=70&crop=false",
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "active"
+    },
+    {
+      "id": "362e",
+      "category": "Toy",
+      "name": "ZUNBELLA",
+      "price": "₹390",
+      "description": "Shipping charges are calculated based on the number of units, distance and delivery date.",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/role-play-toy/4/c/d/duck-slide-toy-set-funny-automatic-stair-climbing-ducklings-original-imagpvysswywmfzf.jpeg?q=70&crop=false",
+      "qty": 1,
+      "marketStatus": "Latest",
+      "status": "active"
+    },
+    {
+      "id": "78f7",
+      "category": "Toy",
+      "name": "SmallBoyToys",
+      "price": "₹13,299",
+      "description": " This ride-on jeep features a full-function remote for parents whose kids cannot yet reach the foot lever",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/electric-ride-on/f/f/q/sbt-2188-03-50-smallboytoys-original-imagmkj4gvaqpahr.jpeg?q=70&crop=false",
+      "qty": 1,
+      "marketStatus": "Upcomming",
+      "status": "active"
+    },
+    {
+      "id": "f9b0",
+      "category": "Toy",
+      "name": "HKC HOUSE",
+      "price": "₹399",
+      "description": " Kids Kitchen Toys Play set will help develop creativity for all of the little chefs out there! it features a variety of realistic",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/role-play-toy/y/f/v/3-in-1-kitchen-cook-set-roll-play-toy-kitchen-set-for-your-kids-original-imagmgqp5sdrg8tk.jpeg?q=70&crop=false",
+      "qty": 1,
+      "marketStatus": "Best",
+      "status": "active"
     }
   ],
   "carts": [
@@ -656,6 +604,141 @@
       "img": "https://assets.ajio.com/medias/sys_master/root/20210505/oMne/6092b5b0aeb269a9e3b1fdac/-473Wx593H-460901350-rosegold-MODEL.jpg",
       "user": "fcd3",
       "product": "639b"
+    },
+    {
+      "id": "1a68",
+      "name": "A.T.U.N.",
+      "price": "₹549",
+      "description": "Yellow,fuchsia and green floral print fit & flare dress Round neck Sleeveless",
+      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/24181378/2023/7/27/e02162fd-6a93-462c-850a-8a497e8032e61690398441846Dresses1.jpg",
+      "user": "fa01",
+      "product": "a8a5"
+    },
+    {
+      "id": "acc2",
+      "name": "PERPAA",
+      "price": " ₹224",
+      "description": "Power Stay Non Transfer 12 Hours Stay Matte Liquid Lipstick 5 ml - Mauve 23",
+      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/27419926/2024/2/8/77139106-a7d7-4160-aa49-206c47c1f7d21707375818040PERPAAPowerStayMatteLiquidLipstick-5ml-Mauve233.jpg",
+      "user": "fa01",
+      "product": "d120"
+    },
+    {
+      "id": "3a2b",
+      "name": "Rajasthanikart",
+      "price": "₹999",
+      "description": "Rajasthanikart is your gateway to the vibrant and culturally rich state of Rajasthan, India. Our platform brings you a handpicked selection of authentic Rajasthani products, showcasing the finest craftsmanship and artistry of this majestic land.",
+      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/26376708/2023/12/12/f7c74ca2-715a-4b61-b79c-4b4b2c0798001702371633592CottonPrinted3cushioncovers2bolstercoversandsinglebedcoverDe1.jpg",
+      "user": "fa01",
+      "product": "6119"
+    },
+    {
+      "id": "8b47",
+      "name": "Carlton London",
+      "price": "₹438",
+      "description": "Silver-toned rhodium-plated studded and beaded spherical studs Secured with a post and back closure",
+      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15179194/2022/9/21/3b22a83f-d27b-4eea-8315-ee9e9ecafac71663759716044CarltonLondonSilver-TonedRhodium-PlatedStuddedBeadedSpherica1.jpg",
+      "user": "fa01",
+      "product": "9a86"
+    },
+    {
+      "id": "81ea",
+      "name": "Sweatshirt",
+      "price": "₹1059",
+      "description": "Beige & brown spider man printed sweatshirt has a round neck, long sleeves, ribbed hem",
+      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/26322722/2023/12/8/03101c30-ac52-425b-98e1-0d4b0f86da861702039323166TheSouledStoreMenMulticolouredPrintedSweatshirt1.jpg",
+      "user": "f9af",
+      "product": "2953"
+    },
+    {
+      "id": "f6a8",
+      "name": "RED TAPE",
+      "price": "₹1,710",
+      "description": "Wipe with a clean, dry cloth when needed Lace Fastening",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20240213/nrPa/65cb713a05ac7d77bb5329f6/-473Wx593H-467069258-white-MODEL6.jpg ",
+      "user": "f9af",
+      "product": "fc51"
+    },
+    {
+      "id": "58f1",
+      "name": "Titan Smart Watch",
+      "price": "₹ 4,995.00",
+      "description": "The latest Titan Smart 3.0 with a stunning 1.96\" AMOLED Display, boasting a 410 x 502 Pixel Resolution",
+      "img": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw69175cab/images/Titan/Catalog/90188AP05_1.jpg?sw=800&sh=800",
+      "user": "f9af",
+      "product": "332e"
+    },
+    {
+      "id": "fd03",
+      "name": "BARBIE Dreamhouse",
+      "price": "₹21,849",
+      "description": " Kids can host the ultimate pool party with the Barbie Dreamhouse! This deluxe doll house has the tallest slide in the Barbie Dreamhouse series to date",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/doll-doll-house/y/n/q/-original-imagv3ruz3h63tpx.jpeg?q=70&crop=false",
+      "user": "a315",
+      "product": "f200"
+    },
+    {
+      "id": "aafe",
+      "name": " Kids Play Tent",
+      "price": "₹1,299",
+      "description": "The play tent gives your child a little space just for themselves, also a fun place to play or sleep. This tent has fun bright colors that will fuel kids' imaginations for hours of indoor play.",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/outdoor-toy/0/y/g/kids-play-tent-house-for-3-5-year-old-girls-and-boys-shree-original-imagmrwagnnke6hy.jpeg?q=70&crop=false",
+      "user": "a315",
+      "product": "6070"
+    },
+    {
+      "id": "f541",
+      "name": "MOTOROLA EnvisionX",
+      "price": "₹31,999",
+      "description": "This Motorola HDR10 TV brings to you 6 display modes, 4 sound modes, and 3D Dolby audio.",
+      "img": "https://rukminim2.flixcart.com/image/832/832/xif0q/television/j/l/3/-original-imagtwtewzgfnvjp.jpeg?q=70&crop=false",
+      "user": "a315",
+      "product": "3fcc"
+    },
+    {
+      "id": "0105",
+      "name": "CROCS",
+      "price": "₹4,645",
+      "description": "Wipe with a clean, dry cloth when needed Forward heightened outsoles",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20231229/TD30/658ebb72afa4cf41f5f5bff5/-473Wx593H-469573520-blue-MODEL5.jpg",
+      "user": "a315",
+      "product": "0540"
+    },
+    {
+      "id": "f7b1",
+      "name": "CASIO",
+      "price": "₹5,995",
+      "description": "Clean the dial with a cotton cloth Water-resistant upto 50 m",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20210505/oMne/6092b5b0aeb269a9e3b1fdac/-473Wx593H-460901350-rosegold-MODEL.jpg",
+      "user": "a315",
+      "product": "639b"
+    },
+    {
+      "id": "222b",
+      "name": "Titan Neo Splash",
+      "price": "₹ 6,995",
+      "description": "Embrace casual daytime outings with this watch featuring a captivating blue textured metal dial",
+      "img": "https://www.titan.co.in/dw/image/v2/BKDD_PRD/on/demandware.static/-/Sites-titan-master-catalog/default/dw1888ad40/images/Titan/Catalog/1805QM01_1.jpg?sw=800&sh=800",
+      "user": "491a",
+      "product": "4ae9"
+    },
+    {
+      "id": "c7d4",
+      "name": "BIG FOX",
+      "price": "₹749",
+      "description": "he most stylish range of shoes, sandals and slippers are exclusively designed to match the latest trends of the new generation. ",
+      "img": "https://assets.ajio.com/medias/sys_master/root/20230621/fHll/64927289d55b7d0c638d8721/-473Wx593H-463967670-black-MODEL6.jpg",
+      "user": "491a",
+      "product": "2cdf"
+    },
+    {
+      "id": "435f",
+      "name": "Athom Trendz",
+      "price": "₹939",
+      "description": "Bring liveliness to your floor with this beautifully printed runner from Athom Trendz.",
+      "img": "https://assets.myntassets.com/h_720,q_90,w_540/v1/assets/images/15702316/2021/10/2/358cd2f3-75d6-4fa4-86a2-5ef246f415881633113866058AthomTrendzBlueMaroonGeometricPrintedPremiumAntiSkidRunnerCa1.jpg",
+      "user": "491a",
+      "product": "3847"
     }
   ]
 }

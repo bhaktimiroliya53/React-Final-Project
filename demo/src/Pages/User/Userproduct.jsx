@@ -13,8 +13,17 @@ function Userproduct() {
     const [category, setCategory] = useState([])
     const [product, setProduct] = useState([])
     const [cat, setcat] = useState('')
-    const [marketStatus, setmarketStatus] = useState('')
-
+    const [marketStatusFilter, setmarketStatusFilter] = useState("")
+    
+    const getCategory = async () => {
+        try {
+            let { data } = await axios.get(`http://localhost:8000/category`);
+            setCategory(data)
+        } catch (err) {
+            console.log(err);
+            return false
+        }
+    }
     const getProduct = async () => {
         try {
             let { data } = await axios.get(`http://localhost:8000/products`)
@@ -28,32 +37,22 @@ function Userproduct() {
     //MarketStatus filters
 
     useEffect(() => {
-        axios.get(`http://localhost:8000/products?marketStatus=${marketStatus}&category=${cat}`)
+        axios.get(`http://localhost:8000/products/?marketStatus=${marketStatusFilter}&category=${cat}`)
             .then((res) => {
                 console.log(cat);
                 setProduct(res.data)
             }).catch((err) => {
                 console.log(err);
-                return false
+                return false;
             })
-    }, [marketStatus])
-
+    }, [marketStatusFilter , cat])
 
     //fillter
 
-    const getCategory = async () => {
-        try {
-            let { data } = await axios.get(`http://localhost:8000/category`);
-            setCategory(data)
-        } catch (err) {
-            console.log(err);
-            return false
-        }
-    }
 
     const categoryFilter = async (cate) => {
         try {
-            let { data } = await axios.get(`http://localhost:8000/products?category=${cate}&marketStatus=${marketStatus}`)
+            let { data } = await axios.get(`http://localhost:8000/products?category=${cate}&marketStatus=${marketStatusFilter}`)
             setcat(cate)
             setProduct(data)
         } catch (err) {
@@ -114,9 +113,10 @@ function Userproduct() {
             <Navbar />
             <Header />
             <div className="row">
-                <div className="fillter d-flex">
+               <div className="col-lg-3">
+               <div className="fillter d-flex">
                     <div className="col-lg-3">
-                        <h2>Fillter</h2>
+                        <h2>Category</h2>
                         <div className="category-fillter">
                             <ul>
                                 <li className='list-group-item'>
@@ -133,28 +133,17 @@ function Userproduct() {
                         </div>
                     </div>
                 </div>
+               </div>
 
                 <div className="col-lg-9">
                     <h2 className='text-center mt-4'>Products</h2>
                     <div className="selectStatus d-flex">
-                        <div className="col-lg-3 ps-3">
-                            <select className='form-control text-center'>
-                                <option value="">----- Select Status -----</option>
-                                <option value="">High to Low</option>
-                                <option value="">Low to High</option>
-                            </select>
-                        </div>
-
-                        <div className="col-lg-6">
-
-                        </div>
-
                         <div className="col-lg-3">
-                            <select className='form-control text-center' onChange={(e) => setmarketStatus(e.target.value)} value={marketStatus}>
-                                <option value="">----- Select Status -----</option>
-                                <option value="latest">Latest</option>
-                                <option value="upcomming">Upcomming</option>
-                                <option value="best">Best</option>
+                            <select className='form-control text-center' onChange={(e) => setmarketStatusFilter(e.target.value)} value={marketStatusFilter}>
+                                <option value="">----- Select Market Status -----</option>
+                                <option value="Latest">Latest</option>
+                                <option value="Upcomming">Upcomming</option>
+                                <option value="Best">Best</option>
                             </select>
                         </div>
                     </div>
@@ -163,18 +152,18 @@ function Userproduct() {
                             product.map((val) => {
                                 return (
                                     <div className='col-lg-3'>
-                                        <div className="card mb-5 p-3 text-center" style={{ width: '300px', height: '430px' }}>
+                                        <div className="card mb-5 p-3 text-center" style={{ width: '250px', height: '430px' }}>
                                             <img src={val.img} style={{ objectFit: "contain", height: "250px" }} className="card-img-top" alt="..." />
-                                            <div className="card-body" style={{padding : '0'}}>
-                                                <h5 className="card-title">{val.category}</h5>
+                                            <div className="card-body" style={{ padding: '0' }}>
+                                                <h5 className="card-title mt-3">{val.name}</h5>
                                                 <hr />
                                                 <p className="card-text"></p>
                                                 <h5>{val.price}</h5>
                                                 <div className="d-flex justify-content-center">
-                                                <button className="btn btn-primary" style={{ fontSize: '16px' }} onClick={() => Addcart(val.id)}>Add Cart</button>
-                                                <Link to={`/view/${val.id}`}>
-                                                    <button className="btn btn-success ms-2" style={{ fontSize: '16px' }}>View Details</button>
-                                                </Link>
+                                                    <button className="btn btn-primary" style={{ fontSize: '16px', width : '100px' }} onClick={() => Addcart(val.id)}>Add Cart</button>
+                                                    <Link to={`/view/${val.id}`}>
+                                                        <button className="btn btn-success ms-2" style={{ fontSize: '16px' , width : '120px' }}>View Details</button>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>

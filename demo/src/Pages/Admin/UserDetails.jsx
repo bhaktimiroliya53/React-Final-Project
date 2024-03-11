@@ -7,14 +7,14 @@ import { useNavigate, useParams } from 'react-router-dom';
 
 function UserDetails() {
 
-  const navigate = useNavigate('');
+  const navigate = useNavigate();
   const { id } = useParams();
   const [auth, setAuth] = useAuth();
   const [cart, setCart] = useState([]);
   const [user, setUser] = useState({});
 
   useEffect(() => {
-    if (auth?.user?.role === "user") {
+    if (auth?.user?.role == "user") {
       navigate('/')
     }
   })
@@ -31,7 +31,7 @@ function UserDetails() {
 
   const getCart = async () => {
     try {
-      let { data } = await axios.get(`http://localhost:8000/carts?user=${auth.user.id}`)
+      let { data } = await axios.get(`http://localhost:8000/carts?user=${id}`)
       setCart(data);
     } catch (err) {
       console.log(err);
@@ -62,11 +62,11 @@ function UserDetails() {
               </div>
               <div className="details">
                 <div className="name">
-                  Name :- {auth.user?.name}
+                  Name :- {user.name}
                 </div>
                 <div className="number">
                   <i className="fa fa-phone" />
-                  <p>Email :- {auth.user?.email}</p>
+                  <p>Email :- {user.email}</p>
                 </div>
               </div>
             </div>
